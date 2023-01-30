@@ -65,6 +65,7 @@ a:focus {
 
 .back-to-top i {
     padding-top: 10px;
+    width:  1rem !important;
 }
 
 .btn {
@@ -87,11 +88,11 @@ a:focus {
     overflow: hidden;
 }
 
-.top-bar .logo h1 {
+.top-bar .logo h2 {
     margin: 0;
     color: #030f27;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 30px;
     font-weight: 700;
 }
 
@@ -107,10 +108,11 @@ a:focus {
 }
 
 .top-bar .top-bar-icon {
-    width: 40px;
+    width: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 1rem;
 }
 
 .top-bar .top-bar-icon [class^="flaticon-"]::before {
@@ -119,9 +121,9 @@ a:focus {
     font-size: 40px;
 }
 
-.top-bar .top-bar-text {
+/* .top-bar .top-bar-text {
     padding-left: 15px;
-}
+} */
 
 .top-bar .top-bar-text h3 {
     margin: 0 0 5px 0;
@@ -139,7 +141,7 @@ a:focus {
 
 @media (min-width: 992px) {
     .top-bar {
-        padding: 0 60px;
+        padding: 0 3rem;
     }
 }
 
