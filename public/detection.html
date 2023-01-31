@@ -117,29 +117,26 @@
             
              <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
+  <div class="container marketing p-0">
 
     <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-4">
+    <div class="row d-flex  justify-content-around">
+      <div class="col-lg-6">
        
         <img class="bd-placeholder-img rounded-circle" src="..//img/18428e0a0dc6281d72fa2046671380.jpg" width="140" height="140">
-        <h2> 2D IMAGES OF FMRI SCANS FOR AUTISM CLASSIFICATION</h2>
+        <h3> 2D IMAGES OF FMRI SCANS FOR AUTISM CLASSIFICATION</h3>
         <p> 
-        Upload the ANTs preprocessed image of your MRI scan to get your ASD diagnosis
+        Upload the ANTs preprocessed image of<br> your MRI scan  get your ASD diagnosis
         </p> <div class="drag-area">
     <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
     <header>Drag & Drop to Upload File</header>
     <span>OR</span>
     <input id='ants_input' type="file" accept=".png,.jpg,.jpeg">
   </div>
+  <p> 
 
-  <!-- <script src="js/script.js"></script> -->
-      
-          <!-- space -----!-->
-        <p>        
 
-        </p>
+  </p>
         
          <button id="diagnose_ants" onclick="uploadFile('ants_input')">Diagnose</button>
          <div id="result_modal" class="w3-modal w3-animate-opacity">
@@ -155,19 +152,17 @@
         </div>
       </div>
 
-         </div><!-- /.col-lg-4 -->
-     
-   
+         </div>
+         <div class="col-lg-4">
+            <img src="/img/istockphoto-957832748-612x612.jpg"  width="350px">
+          </div>
           </div><!-- /.row -->
       
-
-
     <!-- START THE FEATURETTES -->
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
+    <hr class="featurette-divider d-flex justify-content-between">
+    <div class="row d-flex  justify-content-between featurette">
+      <div class="col-md-6">
         <h2 class="featurette-heading"> Preprocessed MRI  </h2>
         <p> 
         Upload the your CPAC preprocessed MRI scan to get your ASD diagnosis
@@ -182,9 +177,7 @@
       
           <!-- space -----!-->
           <p> 
-  
-         
-        
+
 
         </p>
         <button id="diagnose_cpac" onclick="uploadFile('cpac_input')">Diagnose</button>
@@ -208,9 +201,8 @@
 
 
       </div>
-      <div class="col-md-5">
-        <img src="..//img/mac-1784459_960_720.png" width="420px">
-
+      <div class="col-lg-4">
+        <img src="..//img/mac-1784459_960_720.png"  width="350px">
       </div>
     </div>
 
